@@ -19,15 +19,25 @@ Modular Programming Design
 less
 Copy
 Edit
+
 ├── main.c                  // Handles command-line arguments and dispatches encode/decode operation
+
 ├── encode.c / encode.h     // Encoding logic: embeds data into BMP image
+
 ├── decode.c / decode.h     // Decoding logic: extracts data from stego image
+
 ├── common.c / common.h     // Reusable file functions and utilities
+
 ├── types.h                 // Status codes and enum definitions
+
 ├── Makefile                // Build automation
+
 ├── stego.bmp               // Output BMP file with embedded data
+
 ├── secret.txt              // Input text file to encode
+
 ├── output.txt              // Output text file after decoding
+
 🧠 Working Principle
 The system follows the Least Significant Bit (LSB) method to hide and recover messages from BMP files. It manipulates the least significant bit of each image byte to encode or decode binary data, ensuring the visual integrity of the image remains unaffected.
 
