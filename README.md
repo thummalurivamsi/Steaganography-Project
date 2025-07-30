@@ -135,6 +135,10 @@ Extracting file extension... Done
 Reading secret data... Completed successfully!
 
 ✅ Output written to output.txt
+📸 Sample Terminal Output:
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/c6dbacfa-b870-4c2e-a939-e67cd53e5081" />
+<img width="1918" height="417" alt="4" src="https://github.com/user-attachments/assets/800c4d5f-f066-4294-9ac0-91c7fabbb504" />
+
 👨‍💻 Developed By
 Vamsi T
 Aspiring Embedded Systems Engineer | Passionate about C Programming & Digital Security
